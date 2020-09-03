@@ -1,0 +1,58 @@
+$margin1: 70px;
+$margin2: 200px;
+
+#contact-form {
+	padding: $margin1;
+}
+
+.card-deck {
+	margin: $margin1;
+}
+
+section {
+	text-align:center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+    width: 100%;
+  }
+}
+
+.about {
+	@extend section;
+	margin-top: $margin2;
+	margin-bottom: $margin2;
+	p {
+		text-align:center;
+		font-size: 48pt;
+	}
+}
+
+
+.col-lg-6 {
+	padding: 40px;
+	margin-top: 20px;
+}
+
+
+
+h6 {
+	font-family: circle;
+	line-height: 30px;
+}
+
+
+ul.a {
+  list-style-type: circle;
+  
+}
+
+li {
+	font-size: 13px;
+}
+
+p i {
+	color: rgb(0,0,0);
+}
